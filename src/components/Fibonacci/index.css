@@ -1,0 +1,118 @@
+.fib-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.fib-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and(max-width:767px) {
+  .fib-form {
+    width: 80%;
+  }
+}
+
+.fib-heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 20px;
+  color: #0f172a;
+  border-bottom: 3px solid #12bbdd;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.fib-label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+
+.fib-input {
+  font-size: 14px;
+  line-height: 24px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.fib-input:hover {
+  border: 1px solid #f7931e;
+}
+
+.fib-button {
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #1c852c;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.output-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.fib-series {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #52554c;
+  border-bottom: 1px solid #f7931e;
+  text-align: center;
+}
+.fib-span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #12bbdd;
+}
+
+.fib-span:hover {
+  text-decoration: underline;
+}
+.logout-btn {
+  background-color: #f7931e;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 100px;
+  margin-top: 60px;
+  margin-bottom: 2px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.link-item {
+  text-decoration: none;
+}

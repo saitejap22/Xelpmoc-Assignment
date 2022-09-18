@@ -1,0 +1,140 @@
+.reg-container {
+  background-color: #e6f0e5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 400px;
+  min-height: 480px;
+  background: #fefeff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(7, 7, 7, 0.08);
+  padding: 50px 25px 50px 25px;
+}
+@media screen and(max-width:767px) {
+  .form {
+    width: 80%;
+  }
+}
+
+.reg-heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 20px;
+  color: #0f172a;
+  border-bottom: 2px solid #12bbdd;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+.label-error {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: red;
+}
+
+.input {
+  font-size: 14px;
+  line-height: 24px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.input:hover {
+  border: 1px solid #12bbdd;
+}
+
+.reg-button {
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #f7931e;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.reg-login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.reg-note {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #52554c;
+}
+.reg-success {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #30c113;
+  margin: 0;
+}
+.name-error {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  color: red;
+  margin: 0;
+}
+
+.reg-note:hover {
+  text-decoration: underline;
+}
+
+.reg-login {
+  background-color: #12bbdd;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.link-item {
+  text-decoration: none;
+}
